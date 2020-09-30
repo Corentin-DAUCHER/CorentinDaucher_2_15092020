@@ -6,12 +6,31 @@
 
 /* general class ---------------------------------------------------*/
 
+/* all h */
+
+/* h1 */
+
+h1{
+    font-family: Raleway-Bold;
+}
+
+/* h2 */
+
+h2{
+    font-family: Raleway-Medium;
+}
+
+/* h3 */
+
+h3{
+    font-family: Raleway-Regular;
+}
+
 /* text */
 
 .text{
     margin: 0px;
     padding: 0px;
-    font-size: 30px;
 }
 
 /* ul */
@@ -158,6 +177,7 @@ nav ul li h1{
     margin: 2px 0px;
     border: none;
     font-size: 20px;
+    font-family: Raleway-Medium;
 }
 
 /* searchBar input[type=button] */
@@ -232,4 +252,36 @@ nav ul li h1{
 .filter .filterText h2{
     margin: 0px 15px 0px 40px;
     color: black;
+}
+
+/* infoBar ---------------------------------------------------*/
+
+.infoBar{
+    width: 97.5%;
+    margin-top: 3%;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* infoBar i */
+
+.infoBar i{
+    height: 55px;
+    width: 55px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+}
+
+/* infoBar h3 */
+
+.infoBar h3{
+    margin-left: 15px;
+    color: grey;
 }
