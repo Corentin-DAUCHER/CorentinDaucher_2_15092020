@@ -1,10 +1,106 @@
+/* all page ---------------------------------------------------*/
+
 *{
     box-sizing: border-box;
 }
 
-body{
+/* general class ---------------------------------------------------*/
+
+/* text */
+
+.text{
     margin: 0px;
     padding: 0px;
-    width: 100%;
 }
 
+/* ul */
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* li */
+
+li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* a */
+
+a{
+    text-decoration: none;
+}
+
+/* body ---------------------------------------------------*/
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* header ---------------------------------------------------*/
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* logoAndText ---------------------------------------------------*/
+
+#logoAndText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* logoAndText img */
+
+#logoAndText img{
+    width: 30%;
+}
+
+/* nav ---------------------------------------------------*/
+
+nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* nav ul */
+
+nav ul{
+    width: 50%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* nav ul li */
+
+nav ul li{
+    height: fit-content;
+    padding-top: 3%;
+}
+
+/* nav ul li:hover */
+
+nav ul li:hover{
+    border-top: 3px solid #0065FC;
+}
+
+/* nav ul li h1 */
+
+nav ul li h1{
+    color: #0065FC;
+}
