@@ -64,6 +64,7 @@ body{
     padding: 0px;
     display: flex;
     flex-direction: column;
+    
 }
 
 /* header ---------------------------------------------------*/
@@ -547,4 +548,237 @@ nav ul li h1{
 #mostPopularHotelBox #mostPopularHotelResult .hotel .details .hotelRating i{
     font-size: 100%;
     color: #0065FC;
+}
+
+/* activityContainer ---------------------------------------------------*/
+
+#activityContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* activityContainer h2 */
+
+#activityContainer h2{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+/* activityBox */
+
+#activityBox{
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* firstGroup */
+
+#firstGroup{
+    height: 600px;
+    width: 23.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* firstGroup activity01 */
+
+#firstGroup #activity01{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px black;
+}
+
+/*  */
+
+#firstGroup #activity01 img{
+    height: 92%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/*  */
+
+#firstGroup #activity01 h3{
+    height: 5%;
+    width: 100%;
+    margin: 3%;
+}
+
+/*  */
+
+#secondGroup{
+    height: 600px;
+    width: 23.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*  */
+
+#secondGroup #activity02{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px black;
+}
+
+/*  */
+
+#secondGroup #activity02 img{
+    height: 85%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/*  */
+
+#secondGroup #activity02 h3{
+    height: 12%;
+    width: 100%;
+    margin: 3%;
+}
+
+#secondGroup #activity03{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px black;
+}
+
+/*  */
+
+#secondGroup #activity03 img{
+    height: 85%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/*  */
+
+#secondGroup #activity03 h3{
+    height: 12%;
+    width: 100%;
+    margin: 3%;
+}
+
+/*  */
+
+#thirdGroup{
+    height: 600px;
+    width: 23.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* firstGroup activity01 */
+
+#thirdGroup #activity04{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px black;
+}
+
+/*  */
+
+#thirdGroup #activity04 img{
+    height: 92%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/*  */
+
+#thirdGroup #activity04 h3{
+    height: 5%;
+    width: 100%;
+    margin: 3%;
+}
+
+/*  */
+
+#fourthGroup{
+    height: 600px;
+    width: 23.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*  */
+
+#fourthGroup #activity05{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px black;
+}
+
+/*  */
+
+#fourthGroup #activity05 img{
+    height: 85%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/*  */
+
+#fourthGroup #activity05 h3{
+    height: 12%;
+    width: 100%;
+    margin: 3%;
+}
+
+#fourthGroup #activity06{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px black;
+}
+
+/*  */
+
+#fourthGroup #activity06 img{
+    height: 85%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/*  */
+
+#fourthGroup #activity06 h3{
+    height: 12%;
+    width: 100%;
+    margin: 3%;
 }
