@@ -52,6 +52,8 @@ li{
 
 a{
     text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* body ---------------------------------------------------*/
@@ -106,23 +108,28 @@ nav{
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
 }
 
 /* nav ul */
 
 nav ul{
-    width: 50%;
-    margin-right: 5%;
+    width: 100%;
+    margin: 0px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 /* nav ul li */
 
 nav ul li{
     height: fit-content;
+    width: fit-content;
+    margin: 0px 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding-top: 3%;
 }
 
@@ -132,10 +139,22 @@ nav ul li:hover{
     border-top: 3px solid #0065FC;
 }
 
+/* nav ul li a */
+
+nav ul li a{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 /* nav ul li h1 */
 
 nav ul li h1{
+    width: 100%;
     color: #0065FC;
+    overflow: auto;
 }
 
 /* utilities ---------------------------------------------------*/
@@ -256,7 +275,7 @@ nav ul li h1{
 
 /* infoBar ---------------------------------------------------*/
 
-.infoBar{
+#infoBar{
     width: 97.5%;
     margin-top: 3%;
     margin-left: 2.5%;
@@ -267,7 +286,7 @@ nav ul li h1{
 
 /* infoBar i */
 
-.infoBar i{
+#infoBar i{
     height: 55px;
     width: 55px;
     padding: 15px;
@@ -281,7 +300,251 @@ nav ul li h1{
 
 /* infoBar h3 */
 
-.infoBar h3{
+#infoBar h3{
     margin-left: 15px;
     color: grey;
+}
+
+/* hotelContainer ---------------------------------------------------*/
+
+#hotelContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* hotelBox ---------------------------------------------------*/
+
+#hotelBox{
+    width: 69.5%;
+    margin-top: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px black;
+}
+
+/* hotelBox h2 */
+
+#hotelBox h2{
+    margin: 1vh 0px 0px 1vw;
+}
+
+/* hotelBox showMore */
+
+#hotelBox #showMore{
+    margin: 15px;
+}
+
+/* hotelResult ---------------------------------------------------*/
+
+#hotelResult{
+    width: 94%;
+    margin: 0px 3% 3% 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* hotel ---------------------------------------------------*/
+
+.hotel{
+    width: 30%;
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 15px;
+}
+
+/* hotel photo ---------------------------------------------------*/
+
+.hotel .photo{
+    width: 100%;
+}
+
+/* hotel photo img */
+
+.hotel .photo img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* hotel details ---------------------------------------------------*/
+
+.hotel .details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* hotel details hotelName ---------------------------------------------------*/
+
+.hotel .details .hotelName{
+    width: 100%;
+}
+
+/* hotel details hotelName h3 */
+
+.hotel .details .hotelName h3{
+    font-family: Raleway-Bold;
+}
+
+/* hotel details hotelPrice */
+
+.hotel .details .hotelPrice{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* hotel details hotelPrice h3 */
+
+.hotel .details .hotelPrice h3{
+    color: grey;
+}
+
+/* hotel details hotelPrice h3 strong */
+
+.hotel .details .hotelPrice h3 strong{
+    font-family: Raleway-Bold;
+    color: black;
+}
+
+/* hotel details hotelRating */
+
+.hotel .details .hotelRating{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* hotel details hotelRating */
+
+.hotel .details .hotelRating i{
+    font-size: 100%;
+    color: #0065FC;
+}
+
+/* mostPopularHotelBox ---------------------------------------------------*/
+
+#mostPopularHotelBox{
+    width: 21.5%;
+    margin-top: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px black;
+}
+
+/* mostPopularHotelBox h2 */
+
+#mostPopularHotelBox h2{
+    margin: 1vh 0px 0px 1vw;
+}
+
+/* hotelResult ---------------------------------------------------*/
+
+#mostPopularHotelResult{
+    height: 100%;
+    width: 94%;
+    margin: 0px 3% 3% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* hotel ---------------------------------------------------*/
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel{
+    height: 33%;
+    width: 94%;
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 15px;
+}
+
+/* hotel photo ---------------------------------------------------*/
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .photo{
+    height: 100%;
+    width: 40%;
+}
+
+/* hotel photo img */
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* hotel details ---------------------------------------------------*/
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .details{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* hotel details hotelName ---------------------------------------------------*/
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .details .hotelName{
+    width: 100%;
+}
+
+/* hotel details hotelName h3 */
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .details .hotelName h3{
+    font-family: Raleway-Bold;
+}
+
+/* hotel details hotelPrice */
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .details .hotelPrice{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* hotel details hotelPrice h3 */
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .details .hotelPrice h3{
+    color: grey;
+}
+
+/* hotel details hotelPrice h3 strong */
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .details .hotelPrice h3 strong{
+    font-family: Raleway-Bold;
+    color: black;
+}
+
+/* hotel details hotelRating */
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .details .hotelRating{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* hotel details hotelRating */
+
+#mostPopularHotelBox #mostPopularHotelResult .hotel .details .hotelRating i{
+    font-size: 100%;
+    color: #0065FC;
 }
