@@ -177,6 +177,7 @@ nav ul li h1{
     align-content: center;
     background-color: #F2F2F2;
     border-radius: 15px;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
 }
 
 /* searchBar i */
@@ -295,6 +296,7 @@ nav ul li h1{
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
 }
@@ -325,7 +327,7 @@ nav ul li h1{
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 15px;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
 }
 
 /* hotelBox h2 */
@@ -360,7 +362,7 @@ nav ul li h1{
     display: flex;
     flex-direction: column;
     background-color: white;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
     border-radius: 15px;
 }
 
@@ -444,7 +446,7 @@ nav ul li h1{
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 15px;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
 }
 
 /* mostPopularHotelBox h2 */
@@ -461,21 +463,21 @@ nav ul li h1{
     margin: 0px 3% 3% 3%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 /* hotel ---------------------------------------------------*/
 
 #mostPopularHotelBox #mostPopularHotelResult .hotel{
-    height: 33%;
+    height: 25%;
     width: 94%;
     margin-top: 15px;
     padding: 15px;
     display: flex;
     flex-direction: row;
     background-color: white;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
     border-radius: 15px;
 }
 
@@ -568,217 +570,71 @@ nav ul li h1{
 /* activityBox */
 
 #activityBox{
-    width: 100%;
-    padding: 3%;
+    height: 600px;
+    width: 94%;
+    margin: 3% 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* firstGroup */
+/* activityGroup */
 
-#firstGroup{
-    height: 600px;
-    width: 23.5%;
-    display: flex;
-    flex-direction: column;
-}
-
-/* firstGroup activity01 */
-
-#firstGroup #activity01{
+.activityGroup{
     height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 2px black;
-}
-
-/*  */
-
-#firstGroup #activity01 img{
-    height: 92%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-}
-
-/*  */
-
-#firstGroup #activity01 h3{
-    height: 5%;
-    width: 100%;
-    margin: 3%;
-}
-
-/*  */
-
-#secondGroup{
-    height: 600px;
-    width: 23.5%;
+    width: 23%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-/*  */
+/* activity */
 
-#secondGroup #activity02{
-    height: 48%;
+.activity{
     width: 100%;
-    display: flex;
-    flex-direction: column;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0px 0px 2px black;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
 }
 
-/*  */
+/* activity01 activity04 */
 
-#secondGroup #activity02 img{
-    height: 85%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-}
-
-/*  */
-
-#secondGroup #activity02 h3{
-    height: 12%;
-    width: 100%;
-    margin: 3%;
-}
-
-#secondGroup #activity03{
-    height: 48%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 2px black;
-}
-
-/*  */
-
-#secondGroup #activity03 img{
-    height: 85%;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-}
-
-/*  */
-
-#secondGroup #activity03 h3{
-    height: 12%;
-    width: 100%;
-    margin: 3%;
-}
-
-/*  */
-
-#thirdGroup{
-    height: 600px;
-    width: 23.5%;
-    display: flex;
-    flex-direction: column;
-}
-
-/* firstGroup activity01 */
-
-#thirdGroup #activity04{
+#activity01, #activity04{
     height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 2px black;
 }
 
-/*  */
+/* activity01 img + activity04 img */
 
-#thirdGroup #activity04 img{
-    height: 92%;
+#activity01 img, #activity04 img{
+    height: 90%;
     width: 100%;
-    border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
 
-/*  */
+/* activity01 h3 + activity04 h3 */
 
-#thirdGroup #activity04 h3{
-    height: 5%;
-    width: 100%;
-    margin: 3%;
+#activity01 h3, #activity04 h3{
+    margin: 15px;
 }
 
-/*  */
+/* activity02 activity03 activity05 activity06 */
 
-#fourthGroup{
-    height: 600px;
-    width: 23.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-/*  */
-
-#fourthGroup #activity05{
+#activity02, #activity03, #activity05, #activity06{
     height: 48%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 2px black;
 }
 
-/*  */
+/* activity02 img activity03 img activity05 img activity06 img */
 
-#fourthGroup #activity05 img{
-    height: 85%;
+#activity02 img, #activity03 img, #activity05 img, #activity06 img{
+    height: 80%;
     width: 100%;
-    border-radius: 15px 15px 0px 0px;
     object-fit: cover;
-}
-
-/*  */
-
-#fourthGroup #activity05 h3{
-    height: 12%;
-    width: 100%;
-    margin: 3%;
-}
-
-#fourthGroup #activity06{
-    height: 48%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 2px black;
-}
-
-/*  */
-
-#fourthGroup #activity06 img{
-    height: 85%;
-    width: 100%;
     border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
 }
 
-/*  */
+/* activity02 h3 activity03 h3 activity05 h3 activity06 h3 */
 
-#fourthGroup #activity06 h3{
-    height: 12%;
-    width: 100%;
-    margin: 3%;
+#activity02 h3, #activity03 h3, #activity05 h3, #activity06 h3{
+    margin: 15px;
 }
