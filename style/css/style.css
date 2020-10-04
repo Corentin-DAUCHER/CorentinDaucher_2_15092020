@@ -353,10 +353,24 @@ nav ul li h1{
     flex-wrap: wrap;
 }
 
+/* hotelResult a */
+
+#hotelResult a{
+    height: fit-content;
+    width: 30%;
+    color: black;
+}
+
+/* hotelResult a:focused */
+
+#hotelResult a:visited{
+    color: black;
+}
+
 /* hotel ---------------------------------------------------*/
 
 .hotel{
-    width: 30%;
+    width: 100%;
     margin-top: 15px;
     padding: 15px;
     display: flex;
@@ -455,10 +469,10 @@ nav ul li h1{
     margin: 1vh 0px 0px 1vw;
 }
 
-/* hotelResult ---------------------------------------------------*/
+/* mostPopularHotelResult ---------------------------------------------------*/
 
 #mostPopularHotelResult{
-    height: 100%;
+    height: 90%;
     width: 94%;
     margin: 0px 3% 3% 3%;
     display: flex;
@@ -467,12 +481,24 @@ nav ul li h1{
     align-items: center;
 }
 
+#mostPopularHotelResult a{
+    height: 25%;
+    width: 94%;
+    color: black;
+}
+
+/* mostPopularHotelResult a:focused */
+
+#mostPopularHotelResult a:visited{
+    color: black;
+}
+
 /* hotel ---------------------------------------------------*/
 
 #mostPopularHotelBox #mostPopularHotelResult .hotel{
-    height: 25%;
-    width: 94%;
-    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+
     padding: 15px;
     display: flex;
     flex-direction: row;
@@ -637,4 +663,48 @@ nav ul li h1{
 
 #activity02 h3, #activity03 h3, #activity05 h3, #activity06 h3{
     margin: 15px;
+}
+
+/* footer ---------------------------------------------------*/
+
+footer{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+/* footer footerContainer */
+
+footer #footerContainer{
+    width: 75%;
+    margin: 0px auto 0px 1.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* footer footerItem */
+
+footer .footerItem{
+    width: 33%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer footerItem label */
+
+footer .footerItem label{
+    font-family: Raleway-Bold;
+}
+
+/* footer footerItem ul */
+
+footer .footerItem ul{
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer footerItem ul li */
+
+footer .footerItem ul li{
+    margin-top: 15px;
 }
