@@ -98,7 +98,7 @@ header{
 
 /* logoAndText h1 */
 
-#logoAndText h1, h2{
+#logoAndText h1, #logoAndText h2{
     margin-left: 5%;
 }
 
