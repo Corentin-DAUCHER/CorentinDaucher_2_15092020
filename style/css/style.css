@@ -56,6 +56,12 @@ a{
     padding: 0px;
 }
 
+/* html ---------------------------------------------------*/
+
+html{
+    width: 100%;
+}
+
 /* body ---------------------------------------------------*/
 
 body{
@@ -92,14 +98,13 @@ header{
 
 /* logoAndText h1 */
 
-#logoAndText h1{
+#logoAndText h1, h2{
     margin-left: 5%;
 }
 
 /* logoAndText h2 */
 
 #logoAndText h2{
-    margin-left: 5%;
     color: grey;
 }
 
