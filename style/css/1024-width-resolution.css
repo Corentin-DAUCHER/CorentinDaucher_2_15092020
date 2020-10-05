@@ -59,7 +59,7 @@ nav ul li{
 }
 
 .filter .filterText h2{
-    margin: 0px 20px;
+    margin: 0px 40px;
     font-size: 25px;
 }
 
@@ -89,7 +89,7 @@ nav ul li{
 }
 
 #activityContainer h2{
-    margin: 25px 0px;
+    margin: 25px 0px 0px 3%;
 }
 
 #activityBox{

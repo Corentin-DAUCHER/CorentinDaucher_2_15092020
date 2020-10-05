@@ -1,0 +1,23 @@
+footer{
+    height: fit-content;
+    flex-direction: column;
+}
+
+#footerContainer{
+    height: fit-content;
+    width: 50%;
+    margin: 25px auto 25px auto;
+    flex-direction: column;
+}
+
+footer .footerItem{
+    width: 100%;
+}
+
+footer .footerItem ul{
+    width: 100%;
+}
+
+footer .footerItem ul li{
+    width: 100%;
+}
