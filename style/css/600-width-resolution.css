@@ -1,17 +1,37 @@
+/* hotelResult */
+
+#hotelResult{
+    align-items: center;
+    justify-content: center;
+}
+
+/* hotelResult a */
+
+#hotelResult a{
+    width: 90%;
+}
+
 footer{
     height: fit-content;
     flex-direction: column;
 }
 
-#footerContainer{
+footer #footerContainer{
     height: fit-content;
-    width: 50%;
-    margin: 25px auto 25px auto;
     flex-direction: column;
 }
 
+footer #hebergements, footer #assistance{
+    margin: 0px auto;
+}
+
 footer .footerItem{
-    width: 100%;
+    width: 50%;
+    margin: 0px auto;
+}
+
+footer .footerItem label{
+    text-align: center;
 }
 
 footer .footerItem ul{
@@ -20,4 +40,5 @@ footer .footerItem ul{
 
 footer .footerItem ul li{
     width: 100%;
+    text-align: center;
 }
