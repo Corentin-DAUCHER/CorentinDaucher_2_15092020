@@ -77,6 +77,8 @@ body{
 
 header{
     width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
     display: flex;
     flex-direction: row;
 }
@@ -167,6 +169,8 @@ nav ul li h1{
 
 #utilities{
     width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
 }
@@ -317,6 +321,8 @@ nav ul li h1{
 
 #hotelContainer{
     width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -587,6 +593,8 @@ nav ul li h1{
 
 #activityContainer{
     width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
 }
@@ -675,6 +683,10 @@ nav ul li h1{
 footer{
     width: 100%;
     background-color: #F2F2F2;
+}
+
+footer h2, footer h3{
+    margin: 0px;
 }
 
 /* footer footerContainer */
