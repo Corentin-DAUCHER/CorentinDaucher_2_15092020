@@ -1,0 +1,29 @@
+#hotelsContainer{
+    flex-direction: column;
+}
+
+/* hotelsBox */
+
+#hotelsBox{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+}
+
+/* mostPopularHotelsBox */
+
+#mostPopularHotelsBox{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    order: 1;
+}
+
+/* hotelsBox hotelResultBox hotel */
+
+#mostPopularHotelsBox .hotelResultBox .hotel{
+    width: 30%;
+}

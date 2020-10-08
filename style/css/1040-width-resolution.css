@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-#logoAndTextBox h1{
+#logoAndTextBox h1, #logoAndTextBox h3{
     text-align: center;
 }
 

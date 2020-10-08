@@ -42,6 +42,15 @@ h3{
     font-size: 15px;
 }
 
+/* h4 ----------------------------------- */
+
+h4{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway-Medium;
+    font-size: 15px;
+}
+
 /* a ----------------------------------- */
 
 a{
@@ -144,6 +153,17 @@ nav{
     align-items: center;
 }
 
+/* hotelsContainer ----------------------------------- */
+
+#hotelsContainer{
+    width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* BOX ///////////////////////////////////////////////////////////////// */
 
 /* logoAndTextBox ----------------------------------- */
@@ -166,6 +186,41 @@ nav{
     flex-wrap: wrap;
 }
 
+/* hotelsBox */
+
+#hotelsBox{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+
+/* mostPopularHotelsBox */
+
+#mostPopularHotelsBox{
+    width: 30%;
+    margin-top: 50px;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+
+/* hotelResultBox */
+
+.hotelResultBox{
+    width: 100%;
+    padding: 0px 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 /* IMG ///////////////////////////////////////////////////////////////// */
 
 /* logoAndTextBox a */
@@ -179,6 +234,24 @@ nav{
 #headerLogo{
     height: 100%;
     width: 100%;
+}
+
+/* hotelsBox hotelPhoto img */
+
+#hotelsBox .hotelPhoto img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/* mostPopularHotelsBox hotelPhoto img */
+
+#mostPopularHotelsBox .hotelPhoto img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
 }
 
 /* TEXT ///////////////////////////////////////////////////////////////// */
@@ -213,6 +286,32 @@ nav ul li a h1{
 #infoBarContainer h3{
     margin-left: 15px;
     color: grey;
+}
+
+/* hotelsBox h2 */
+
+#hotelsBox h2{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* mostPopularHotelsBox h2 */
+
+#mostPopularHotelsBox h2{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* hotelDetails text h4 */
+
+.hotelDetails .text h4{
+    color: grey;
+}
+
+/* hotelDetails text h4 strong */
+
+.hotelDetails .text h4 strong{
+    color: black;
 }
 
 /* UL ///////////////////////////////////////////////////////////////// */
@@ -338,3 +437,85 @@ nav ul li:hover{
     background-color: #DEEBFF;
     border-radius: 50%;
 }
+
+/* hotel */
+
+.hotel{
+    border-radius: 15px;
+    background-color: white;
+}
+
+/* hotelsBox hotelResultBox hotel */
+
+#hotelsBox .hotelResultBox .hotel{
+    height: 250px;
+    width: 30%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* hotelsBox hotelResultBox hotel */
+
+#mostPopularHotelsBox .hotelResultBox .hotel{
+    height: 150px;
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* hotelsBox hotelResultBox hotel hotelPhoto */
+
+#hotelsBox .hotelResultBox .hotel .hotelPhoto{
+    height: 70%;
+    width: 100%;
+    padding: 2px;
+}
+
+/* hotelsBox hotelResultBox hotel hotelDetails */
+
+#hotelsBox .hotelResultBox .hotel .hotelDetails{
+    height: 30%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* mostPopularHotelsBox hotelResultBox hotel hotelPhoto */
+
+#mostPopularHotelsBox .hotelResultBox .hotel .hotelPhoto{
+    height: 100%;
+    width: 40%;
+    padding: 2px;
+}
+
+/* mostPopularHotelsBox hotelResultBox hotel hotelPhoto */
+
+#mostPopularHotelsBox .hotelResultBox .hotel .hotelDetails{
+    height: 100%;
+    width: 60%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*  */
+
+#mostPopularHotelsBox .hotelResultBox .hotel .hotelDetails .text{
+    height: 80%;
+}
+
+/*  */
+
+#mostPopularHotelsBox .hotelResultBox .hotel .hotelDetails .rating{
+    height: 20%;
+}
+
+/* rating i */
+
+.rating i{
+    color: #0065FC;
+}
+

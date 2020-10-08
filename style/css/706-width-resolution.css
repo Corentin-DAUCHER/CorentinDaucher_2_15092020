@@ -1,0 +1,14 @@
+/* hotelsBox hotelResultBox hotel */
+
+#hotelsBox .hotelResultBox .hotel{
+    width: 90%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* hotelsBox hotelResultBox hotel */
+
+#mostPopularHotelsBox .hotelResultBox .hotel{
+    width: 90%;
+}
