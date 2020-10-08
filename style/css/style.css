@@ -1,0 +1,340 @@
+/* DEFAULT VALUE ///////////////////////////////////////////////////////////////// */
+
+/* all file ----------------------------------- */
+
+*{
+    box-sizing: border-box;
+}
+
+/* body ----------------------------------- */
+
+body{
+    height: fit-content;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* h1 ----------------------------------- */
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway-Bold;
+    font-size: 20px;   
+}
+
+/* h2 ----------------------------------- */
+
+h2{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway-Bold;
+    font-size: 20px;
+}
+
+/* h3 ----------------------------------- */
+
+h3{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway-Medium;
+    font-size: 15px;
+}
+
+/* a ----------------------------------- */
+
+a{
+    text-decoration: none;
+}
+
+/* a:visited ----------------------------------- */
+
+a:visited{
+    color: initial;
+}
+
+/* ul ----------------------------------- */
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* li ----------------------------------- */
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BALISE SEMANTIQUE ///////////////////////////////////////////////////////////////// */
+
+/* header ----------------------------------- */
+
+header{
+    height: fit-content;
+    width: 100%;
+}
+
+/* nav ----------------------------------- */
+
+nav{
+    height: fit-content;
+    width: 50%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* CONTAINER ///////////////////////////////////////////////////////////////// */
+
+/* headerContainer ----------------------------------- */
+
+#headerContainer{
+    height: fit-content;
+    width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* utilitiesContainer ----------------------------------- */
+
+#utilitiesContainer{
+    height: fit-content;
+    width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* searchBarContainer ----------------------------------- */
+
+#searchBarContainer{
+    height: fit-content;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 3%;
+}
+
+/* filterContainer ----------------------------------- */
+
+#filterContainer{
+    height: fit-content;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* infoBarContainer ----------------------------------- */
+
+#infoBarContainer{
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* BOX ///////////////////////////////////////////////////////////////// */
+
+/* logoAndTextBox ----------------------------------- */
+
+#logoAndTextBox{
+    height: fit-content;
+    width: 50%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* filterBox ----------------------------------- */
+
+#filterBox{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* IMG ///////////////////////////////////////////////////////////////// */
+
+/* logoAndTextBox a */
+
+#logoAndTextBox a{
+    width: 47%;
+}
+
+/* headerLogo ----------------------------------- */
+
+#headerLogo{
+    height: 100%;
+    width: 100%;
+}
+
+/* TEXT ///////////////////////////////////////////////////////////////// */
+
+/* logoAndTextBox h3 ----------------------------------- */
+
+#logoAndTextBox h3{
+    color: grey;
+}
+
+/* nav ul li a h1 ----------------------------------- */
+
+nav ul li a h1{
+    color: #0065FC;
+}
+
+/* filterContainer h2 ----------------------------------- */
+
+#filterContainer h2{
+    width: 12%;
+}
+
+/* filter h2 ----------------------------------- */
+
+#filterContainer .filter h2{
+    width: fit-content;
+    margin: 0px 15px;
+}
+
+/* infoBarContainer h3 ----------------------------------- */
+
+#infoBarContainer h3{
+    margin-left: 15px;
+    color: grey;
+}
+
+/* UL ///////////////////////////////////////////////////////////////// */
+
+/* nav ul ----------------------------------- */
+
+nav ul{
+    height: fit-content;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* LI ///////////////////////////////////////////////////////////////// */
+
+/* nav ul li ----------------------------------- */
+
+nav ul li{
+    padding-top: 25px;
+    border-top: 3px solid white;
+}
+
+/* nav ul li:hover ----------------------------------- */
+
+nav ul li:hover{
+    border-top: 3px solid #0065FC;
+}
+
+/* ITEMS ///////////////////////////////////////////////////////////////// */
+
+/* searchBar ----------------------------------- */
+
+#searchBar{
+    width: 30%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+/* searchBar i ----------------------------------- */
+
+#searchBar i{
+    width: 10%;
+    margin: 15px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* searchBar input[type:search] ----------------------------------- */
+
+#searchBar input[type=search]{
+    width: 45%;
+    border: none;
+    margin: 3px 0px;
+}
+
+/* searchBar input[type:search]:focus ----------------------------------- */
+
+#searchBar input[type=search]:focus{
+    outline-style: none;
+}
+
+/* searchBar input[type=button] ----------------------------------- */
+
+#searchBar input[type=button]{
+    width: 45%;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    background-color: #0065FC;
+}
+
+/* searchBar input[type=button]:hover ----------------------------------- */
+
+#searchBar input[type=button]:hover{
+    color: #0065FC;
+    background-color: white;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+/* searchBar input[type=button]:focus ----------------------------------- */
+
+#searchBar input[type=button]:focus{
+    outline-style: none;
+}
+
+/* filter ----------------------------------- */
+
+.filter{
+    height: fit-content;
+    width: fit-content;
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 25px;
+    z-index: 0;
+}
+
+/* filter i ----------------------------------- */
+
+.filter i{
+    margin-left: -5px;
+    padding: 15px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 25px;
+    box-shadow: 0px 0px 3px #DEEBFF;
+    z-index: 1;
+}
+
+/* infoBarContainer i ----------------------------------- */
+
+#infoBarContainer i{
+    padding: 10px 15px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+}
