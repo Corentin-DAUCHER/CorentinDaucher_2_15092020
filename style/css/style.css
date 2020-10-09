@@ -97,6 +97,13 @@ nav{
     justify-content: flex-end;
 }
 
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
 /* CONTAINER ///////////////////////////////////////////////////////////////// */
 
 /* headerContainer ----------------------------------- */
@@ -172,6 +179,16 @@ nav{
     margin: 0px auto;
 }
 
+/* footerContainer */
+
+#footerContainer{
+    width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
 /* BOX ///////////////////////////////////////////////////////////////// */
 
 /* logoAndTextBox ----------------------------------- */
@@ -237,6 +254,13 @@ nav{
     padding: 0px 3%;
     display: flex;
     flex-direction: column;
+}
+
+/* footerBox */
+
+.footerBox{
+    margin-left: 3%;
+    padding: 25px 0px;
 }
 
 /* IMG ///////////////////////////////////////////////////////////////// */
@@ -330,6 +354,12 @@ nav ul li a h1{
 
 .hotelDetails .text h4 strong{
     color: black;
+}
+
+/* footerBox ul li h3 */
+
+.footerBox ul li h3{
+    margin-top: 15px;
 }
 
 /* UL ///////////////////////////////////////////////////////////////// */
