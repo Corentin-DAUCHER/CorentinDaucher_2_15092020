@@ -164,6 +164,14 @@ nav{
     justify-content: space-between;
 }
 
+/* activityContainer ----------------------------------- */
+
+#activityContainer{
+    width: 100%;
+    max-width: 1335px;
+    margin: 0px auto;
+}
+
 /* BOX ///////////////////////////////////////////////////////////////// */
 
 /* logoAndTextBox ----------------------------------- */
@@ -186,7 +194,7 @@ nav{
     flex-wrap: wrap;
 }
 
-/* hotelsBox */
+/* hotelsBox ----------------------------------- */
 
 #hotelsBox{
     width: 60%;
@@ -198,7 +206,7 @@ nav{
     border-radius: 15px;
 }
 
-/* mostPopularHotelsBox */
+/* mostPopularHotelsBox ----------------------------------- */
 
 #mostPopularHotelsBox{
     width: 30%;
@@ -210,7 +218,7 @@ nav{
     border-radius: 15px;
 }
 
-/* hotelResultBox */
+/* hotelResultBox ----------------------------------- */
 
 .hotelResultBox{
     width: 100%;
@@ -219,6 +227,16 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+/* activityBox ----------------------------------- */
+
+#activityBox{
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px 3%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* IMG ///////////////////////////////////////////////////////////////// */
@@ -438,14 +456,14 @@ nav ul li:hover{
     border-radius: 50%;
 }
 
-/* hotel */
+/* hotel ----------------------------------- */
 
 .hotel{
     border-radius: 15px;
     background-color: white;
 }
 
-/* hotelsBox hotelResultBox hotel */
+/* hotelsBox hotelResultBox hotel ----------------------------------- */
 
 #hotelsBox .hotelResultBox .hotel{
     height: 250px;
@@ -455,7 +473,7 @@ nav ul li:hover{
     flex-direction: column;
 }
 
-/* hotelsBox hotelResultBox hotel */
+/* hotelsBox hotelResultBox hotel ----------------------------------- */
 
 #mostPopularHotelsBox .hotelResultBox .hotel{
     height: 150px;
@@ -465,7 +483,7 @@ nav ul li:hover{
     flex-direction: row;
 }
 
-/* hotelsBox hotelResultBox hotel hotelPhoto */
+/* hotelsBox hotelResultBox hotel hotelPhoto ----------------------------------- */
 
 #hotelsBox .hotelResultBox .hotel .hotelPhoto{
     height: 70%;
@@ -473,7 +491,7 @@ nav ul li:hover{
     padding: 2px;
 }
 
-/* hotelsBox hotelResultBox hotel hotelDetails */
+/* hotelsBox hotelResultBox hotel hotelDetails ----------------------------------- */
 
 #hotelsBox .hotelResultBox .hotel .hotelDetails{
     height: 30%;
@@ -483,7 +501,7 @@ nav ul li:hover{
     flex-direction: column;
 }
 
-/* mostPopularHotelsBox hotelResultBox hotel hotelPhoto */
+/* mostPopularHotelsBox hotelResultBox hotel hotelPhoto ----------------------------------- */
 
 #mostPopularHotelsBox .hotelResultBox .hotel .hotelPhoto{
     height: 100%;
@@ -491,7 +509,7 @@ nav ul li:hover{
     padding: 2px;
 }
 
-/* mostPopularHotelsBox hotelResultBox hotel hotelPhoto */
+/* mostPopularHotelsBox hotelResultBox hotel hotelPhoto ----------------------------------- */
 
 #mostPopularHotelsBox .hotelResultBox .hotel .hotelDetails{
     height: 100%;
@@ -501,21 +519,94 @@ nav ul li:hover{
     flex-direction: column;
 }
 
-/*  */
+/* mostPopularHotelsBox hotelResultBox hotel hotelDetails text  ----------------------------------- */
 
 #mostPopularHotelsBox .hotelResultBox .hotel .hotelDetails .text{
     height: 80%;
 }
 
-/*  */
+/* mostPopularHotelsBox hotelResultBox hotel hotelDetails rating ----------------------------------- */
 
 #mostPopularHotelsBox .hotelResultBox .hotel .hotelDetails .rating{
     height: 20%;
 }
 
-/* rating i */
+/* rating i ----------------------------------- */
 
 .rating i{
     color: #0065FC;
 }
 
+/* activities ----------------------------------- */
+
+#activities{
+    height: 500px;
+    width: 100%;
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* activity ----------------------------------- */
+
+.activity{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
+}
+
+/* activityPhoto */
+
+.activity #activity01Photo, .activity #activity04Photo{
+    height: 90%;
+    width: 100%;
+}
+
+.activity #activity02Photo, .activity #activity03Photo, .activity #activity05Photo, .activity #activity06Photo{
+    height: 80%;
+    width: 100%;
+}
+
+/* activityPhoto img */
+
+.activityPhoto img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/* activityDetails */
+
+.activityDetails{
+    width: 100%;
+    padding: 15px;
+}
+
+/* activity activity01Details, activity activity04Details */
+
+.activity #activity01Details, .activity #activity04Details{
+    height: 10%;
+}
+
+/* activity activity02Details, activity activity03Details, activity activity05Details, activity activity06Details */
+
+.activity #activity02Details, .activity #activity03Details, .activity #activity05Details, .activity #activity06Details{
+    height: 20%;
+}
+
+/* activity01, activity04 */
+
+#activities #activity01, #activities #activity04{
+    height: 100%;
+}
+
+/* activity02 activity03 activity05 activity06 */
+
+#activities #activity02, #activities #activity03, #activities #activity05, #activities #activity06{
+    height: 45%;
+}

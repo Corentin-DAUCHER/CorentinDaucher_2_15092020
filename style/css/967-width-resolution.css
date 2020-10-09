@@ -1,0 +1,43 @@
+#activities{
+    height: 2500px;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+/* activity01, activity04 */
+
+#activities #activity01, #activities #activity04{
+    height: 15.5%;
+    width: 100%;
+}
+
+/* activity02 activity03 activity05 activity06 */
+
+#activities #activity02, #activities #activity03, #activities #activity05, #activities #activity06{
+    height: 15.5%;
+    width: 100%;
+}
+
+/* activityPhoto */
+
+.activity #activity01Photo, .activity #activity04Photo{
+    height: 85%;
+    width: 100%;
+}
+
+.activity #activity02Photo, .activity #activity03Photo, .activity #activity05Photo, .activity #activity06Photo{
+    height: 85%;
+    width: 100%;
+}
+
+/* activity activity01Details, activity activity04Details */
+
+.activity #activity01Details, .activity #activity04Details{
+    height: 10%;
+}
+
+/* activity activity02Details, activity activity03Details, activity activity05Details, activity activity06Details */
+
+.activity #activity02Details, .activity #activity03Details, .activity #activity05Details, .activity #activity06Details{
+    height: 10%;
+}
