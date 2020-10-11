@@ -41,3 +41,30 @@
 .activity #activity02Details, .activity #activity03Details, .activity #activity05Details, .activity #activity06Details{
     height: 10%;
 }
+
+/* footerContainer */
+
+#footerContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+/* footerBox */
+
+.footerBox:nth-child(1){
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footerBox */
+
+.footerBox:nth-child(2), .footerBox:nth-child(3){
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

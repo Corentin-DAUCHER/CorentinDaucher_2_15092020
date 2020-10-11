@@ -22,8 +22,8 @@
     order: 1;
 }
 
-/* hotelsBox hotelResultBox hotel */
+/* hotelsBox hotelResultBox a */
 
-#mostPopularHotelsBox .hotelResultBox .hotel{
+#mostPopularHotelsBox .hotelResultBox a{
     width: 30%;
 }
