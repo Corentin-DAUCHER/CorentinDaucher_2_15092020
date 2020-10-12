@@ -9,6 +9,18 @@
     align-items: center;
 }
 
+/* logoAndTextBox a */
+
+#logoAndTextBox a{
+    width: 30%;
+}
+
+/* logoAndTextBox a img */
+
+#logoAndTextBox a img{
+    width: 100%;
+}
+
 #logoAndTextBox h1, #logoAndTextBox h3{
     text-align: center;
 }

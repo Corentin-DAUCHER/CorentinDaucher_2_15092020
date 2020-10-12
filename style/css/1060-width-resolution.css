@@ -1,3 +1,9 @@
+/* filterContainer h2 ----------------------------------- */
+
+#filterContainer .filterContainerTitle{
+    width: 10%;
+}
+
 #hotelsContainer{
     flex-direction: column;
 }

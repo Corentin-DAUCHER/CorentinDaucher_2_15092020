@@ -52,19 +52,17 @@
 /* footerBox */
 
 .footerBox:nth-child(1){
-    width: 50%;
+    width: fit-content;
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 /* footerBox */
 
 .footerBox:nth-child(2), .footerBox:nth-child(3){
-    width: 50%;
+    width: fit-content;
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
