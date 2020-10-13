@@ -536,7 +536,8 @@ nav ul li:hover{
 #infoBarContainer i{
     padding: 10px 15px;
     color: #0065FC;
-    background-color: #DEEBFF;
+    background-color: white;
+    border: 1px solid grey;
     border-radius: 50%;
 }
 
@@ -671,10 +672,15 @@ nav ul li:hover{
     justify-content: space-between;
 }
 
+#activities a{
+    width: 22%;
+}
+
 /* activity ----------------------------------- */
 
 .activity{
-    width: 22%;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 15px;

@@ -1,10 +1,23 @@
 /* hotelsBox hotelResultBox a */
 
 #hotelsBox .hotelResultBox a{
+    height: 350px;
     width: 90%;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* hotelsBox hotelResultBox hotel hotelPhoto ----------------------------------- */
+
+#hotelsBox .hotelResultBox .hotel .hotelPhoto{
+    height: 75%;
+}
+
+/* hotelsBox hotelResultBox hotel hotelDetails ----------------------------------- */
+
+#hotelsBox .hotelResultBox .hotel .hotelDetails{
+    height: 25%;
 }
 
 /* hotelsBox hotelResultBox a */

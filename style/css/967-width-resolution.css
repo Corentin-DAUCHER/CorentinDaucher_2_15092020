@@ -52,7 +52,7 @@
 /* footerBox */
 
 .footerBox:nth-child(1){
-    width: fit-content;
+    width: 220px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@
 /* footerBox */
 
 .footerBox:nth-child(2), .footerBox:nth-child(3){
-    width: fit-content;
+    width: 220px;
     margin: auto;
     display: flex;
     flex-direction: column;
